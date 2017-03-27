@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Stylesheets go here. -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" type="text/css">
+  <link rel="stylesheet" type="text/css" href="my.css" />
+</head>
+<body>
+  <!-- Content goes here. -->
+
+  <!-- Content goes here. -->
+
+  <div class="jumbotron" id="jumbo">
+    <h1>Notemeister 5000<span id="tag_name"></span></h1>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-8" id="left_well">
+        <div class="logged_in">
+          <h2>Add a note</h2>
+          <form action="#" id="post_note">
+            <div class="form-group">
+              <label for="exampleTitle">Title</label>
+              <input type="text" name="title" class="form-control" id="exampleTitle" placeholder="Note Title">
+            </div>
+            <div class="form-group">
+              <label for="body">Body</label>
+              <textarea class="form-control" id="body" name="body" placeholder="Note Body"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" id="add_note_button">Add Note</button>
+          </form>
+        </div>
+        <div class="note" id="note">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" tabindex="-1" role="dialog" id="modal_one">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+  <!-- Scripts go here. -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
+  <script type="text/javascript" src="https://cdn.polyfill.io/v2/polyfill.min.js?features=fetch"></script>
+  <script type="text/javascript" src="global.js"></script>
+</body>
+</html>
